@@ -11,7 +11,7 @@
 /*
  ************************************************************************************************************** 
  * Credit : Thanks Allah SWT., Nabi Muhammad SAW., Thanks My Mother & My Father, Thanks My Brother; and Thanks* 
- *          My Friends electrical enginnering'19 usk Syiah Kuala University                                   *
+ *          My Friends electrical enginneering'19 usk Syiah Kuala University                                   *
  *                                                                                                            *
  **************************************************************************************************************          
  */
