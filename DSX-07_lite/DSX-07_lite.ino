@@ -55,8 +55,7 @@ void loop() {
           motors.stops(); //移動停止()
           break;
     }
-
-    delay(50);
+   
     Serial.println(remote_code.value);
     button_remote.resume();
   }
