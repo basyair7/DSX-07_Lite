@@ -15,4 +15,4 @@ project dsx-07_lite hanya menggunakan :
 # Credit :
 Thanks Allah SWT., Nabi Muhammad SAW., Thanks My mother & My father, Thanks My Brother, and Thank you My Friends from Electrical Engineering'19 USK, Syiah Kuala University.
 
-@Project 2020
+@Project2020
