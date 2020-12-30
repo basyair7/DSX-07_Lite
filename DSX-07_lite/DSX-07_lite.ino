@@ -27,11 +27,11 @@ DSX_pinMotors motors(2,3,4,5);
 IRrecv button_remote(IRsensor);
 decode_results remote_code;
 
-#define Forward "551485695"
-#define Backward "551518335"
-#define TurnRight "551502015"
-#define TurnLeft "551534655"
-#define Stop "551494365"
+#define Forward 551485695
+#define Backward 551518335
+#define TurnRight 551502015
+#define TurnLeft 551534655
+#define Stop 551494365
 
 void setup() {
   motors.pinMotors(); //モーターピン宣言
