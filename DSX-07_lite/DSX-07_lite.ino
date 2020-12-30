@@ -27,6 +27,12 @@ DSX_pinMotors motors(2,3,4,5);
 IRrecv button_remote(IRsensor);
 decode_results remote_code;
 
+#define Forward "551485695"
+#define Backward "551518335"
+#define TurnRight "551502015"
+#define TurnLeft "551534655"
+#define Stop "551494365"
+
 void setup() {
   motors.pinMotors(); //モーターピン宣言
   //IRリモート機能
@@ -39,19 +45,19 @@ void setup() {
 void loop() {
   if (button_remote.decode(&remote_code)){
     switch (remote_code.value){
-      case 551485695:
+      case Forward:
           motors.forward(); //前進する()
           break;
-      case 551518335:
+      case Backward:
           motors.backward(); //後ろに移動()
           break;
-      case 551534655:
+      case TurnLeft:
           motors.turnLeft(); //左折してください()
           break;
-      case 551502015:
+      case TurnRight:
           motors.turnRight(); //右に曲がる()
           break;
-      case 551494365:
+      case Stop:
           motors.stops(); //移動停止()
           break;
     }
